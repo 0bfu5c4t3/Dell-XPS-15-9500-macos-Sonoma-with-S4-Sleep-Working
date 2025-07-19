@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <SupportAssistPrebootDiagnosticLog>
+    <Schema>1.0.0</Schema>
+    <LogNumber>8</LogNumber>
+    <LogTimeStamp>07/15/2025 07:24:06</LogTimeStamp>
+    <ePSA_Data>
+      <Result>Not Reported</Result>
+      <ReturnCode>BOOT_SHUTDOWN</ReturnCode>
+      <ePSAFullVersion>ED.1.1.6</ePSAFullVersion>
+      <ePSAInvocationCount>2</ePSAInvocationCount>
+    </ePSA_Data>
+    <BIOS_Data>
+      <ErrorCategory>MEM_TEST_FAIL</ErrorCategory>
+      <ErrorMessage><![CDATA[Alert! BIOS detected a memory CRC mismatch.]]></ErrorMessage>
+      <Flags>DISABLE_IN_SETUP, SHUTDOWN</Flags>
+      <FRU_String><![CDATA[Memory]]></FRU_String>
+      <SOS_Available>FALSE</SOS_Available>
+      <TimeOutSeconds>0</TimeOutSeconds>
+    </BIOS_Data>
+  </SupportAssistPrebootDiagnosticLog>

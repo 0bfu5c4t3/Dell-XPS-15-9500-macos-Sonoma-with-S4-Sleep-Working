@@ -77,7 +77,7 @@ sudo pmset -a womp 0
 sudo pmset -a proximitywake 0
 ```
 
-> **Note:** When resuming from hibernate, macOS may show a false-positive error message. Just ignore it — it doesn’t affect functionality. Also, bluetooth is semi-broken on Sequoia
+> **Note:** When resuming from hibernate, macOS may show a false-positive error message. Just ignore it — it doesn’t affect functionality. Also, bluetooth is semi-broken on Sequoia.
 
 ### ✅ Utilities
 - **Wi-Fi Control** – [HeliPort](https://github.com/OpenIntelWireless/HeliPort)

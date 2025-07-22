@@ -59,8 +59,7 @@ setup_var CpuSetup 0xDA 0x00   # Disable Overclocking Lock
 1. Clone this repo  
 2. Copy `EFI` folder to your USB's EFI partition  
 3. Boot from USB  
-4. [Generate SMBIOS + fix iServices](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html)  
-5. Move EFI to internal drive after testing  
+4. Move EFI to internal drive after testing  
 
 ---
 
@@ -78,7 +77,7 @@ sudo pmset -a womp 0
 sudo pmset -a proximitywake 0
 ```
 
-> **Note:** When resuming from hibernate, macOS may show a false-positive error message. Just ignore it — it doesn’t affect functionality.
+> **Note:** When resuming from hibernate, macOS may show a false-positive error message. Just ignore it — it doesn’t affect functionality. Also, bluetooth is semi-broken on Sequoia
 
 ### ✅ Utilities
 - **Wi-Fi Control** – [HeliPort](https://github.com/OpenIntelWireless/HeliPort)
